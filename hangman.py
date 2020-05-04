@@ -7,7 +7,7 @@ print("")
 time.sleep(1)
 print ("start guessing...")
 time.sleep(0.5)
-word = "secret"
+word = "python"
 guesses= ''
 turns = 10
 while turns > 0:
@@ -30,7 +30,7 @@ while turns > 0:
     if guess not in word:
         turns -= 1
         print("wrong")
-        print("you have " +turns , "guesses left")
+        print("you have ", +turns, 'more guesses left')
         if turns==0:
             print("you lose")
 
